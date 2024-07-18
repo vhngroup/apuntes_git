@@ -27,6 +27,7 @@
 
 ### Visual Studio Code:
 * cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170. + CategoryInfo  SecurityError: (:) [], PSSecurityException + FullyQualifiedErrorId : UnauthorizedAccess
+  
 Este error es producido por que no tenemos permisos para ejecutar Scripts en PowerShell.
   * Ejecutamos PowerShell en modo administrador y escribimos lo siguiente: Set-ExecutionPolicy Unrestricted
   * Con ello ya deberiamos poder ejecutar correctamente nuestros scripts
